@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.component-drag {
+    @apply p-2 rounded-lg transition ease-in-out duration-150 cursor-pointer shadow-sm;
+}
+
+.component-drag:hover {
+    @apply bg-gray-300;
+}
+
+.btn-icon {
+    @apply p-1 border-2 border-transparent  rounded-full transition ease-in-out duration-150;
+}
+
+.btn-icon:focus {
+    @apply outline-none;
+}
+
+.btn-icon:hover {
+    @apply bg-gray-200;
+}
